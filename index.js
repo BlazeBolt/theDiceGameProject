@@ -15,11 +15,11 @@ var dice2 = document.querySelectorAll("img")[1];
 dice2.setAttribute("src",randomDiceImage2Source);
 
 if (randomNumber1>randomNumber2){
-    document.querySelector("h1").innerHTML = "Player1 Wins !";
+    document.querySelector("h1").innerHTML = "🚩 Player1 Wins !";
 }
 else if (randomNumber1===randomNumber2){
     document.querySelector("h1").innerHTML = "DRAW";
 }
 else{
-    document.querySelector("h1").innerHTML = "Player2 Wins !";
+    document.querySelector("h1").innerHTML = "Player2 Wins! 🚩";
 }
