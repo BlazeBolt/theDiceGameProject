@@ -2,14 +2,14 @@ var randomNumber1 = Math.floor(Math.random()*6)+1;
 
 var randomDiceImage = "dice"+randomNumber1+".png";
 
-var randomImageSource = "./images/"+randomDiceImage;
+var randomImageSource = "./"+randomDiceImage;
 
 var dice1 = document.querySelectorAll("img")[0];
 dice1.setAttribute("src",randomImageSource);
 
 var randomNumber2 = Math.floor(Math.random()*6)+1;
 
-var randomDiceImage2Source = "./images/dice"+randomNumber2+".png";
+var randomDiceImage2Source = "./dice"+randomNumber2+".png";
 
 var dice2 = document.querySelectorAll("img")[1];
 dice2.setAttribute("src",randomDiceImage2Source);
